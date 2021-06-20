@@ -1,0 +1,80 @@
+
+   
+ p{
+	 margin-left: 10%;
+ }
+   img {
+  border-radius: 60%;
+}
+
+
+
+
+
+
+<div id="left5" style="opacity: 0.5;" OnClick="OnClick('<?php echo $fullname[$x]; ?>','<?php echo $date_time[$x]; ?>','<?php echo $mobile[$x]; ?>','<?php echo $email[$x]; ?>','<?php echo $message[$x]; ?>',this,'<?php echo $id_info[$x]; read($id_info[$x]); ?>'), read(37)"><span><b>
+<?php 
+echo $fullname[$x]."</span></b></br><p>".substr($message[$x],0,31)."...";
+
+
+
+?></p></div>
+
+
+
+https://fonts.google.com/specimen/Lato
+
+
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET" id="form">
+  <input name="p" value="vinay">
+    <script> alert("hi vinit");</script>
+
+</form> 
+
+
+<!DOCTYPE HTML>
+<html>
+<?php
+  function runMyFunction() {
+    echo 'I just ran a php function';
+  }
+
+  if (isset($_GET['hello'])) {
+    runMyFunction();
+  }
+?>
+
+Hello there!
+<a href='index.php?hello=true'>Run PHP Function</a>
+</html>
+
+
+
+
+OnClick="OnClick('<?php echo $id_info[$x]; ?>','<?php echo $count; ?>')"
+
+
+<script>
+ function OnClick(a,b){
+	 var c=parseInt(b);
+	 var e=parseInt(a);
+	 var f=e;
+	 
+	 
+	 
+	 
+	 document.getElementById("name").innerHTML=f;
+	 document.getElementById("nameof").innerHTML=f;
+	 
+	 
+	 
+ }
+ 
+ function form()
+ {
+	 document.getElementById("form").submit;
+	 
+	 
+ }
+
+</script>
